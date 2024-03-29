@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+            .box1{
+                height: 200px;
+                width: 200px;
+                background-color: red;
+                transform: translate(1600px,0px);
+                animation-name: identifier3;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate ;
+                
+            }
+            .box2{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                transform: translate(0px,-200px);
+                animation-name: identifier2;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate ;
+                
+            }
+            .box3{
+                height: 200px;
+                width: 200px;
+                background-color: green;
+                transform: translate(1600px,300px);
+                animation-name: identifier1;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate ;
+                
+            }
+            .box4{
+                height: 200px;
+                width: 200px;
+                background-color: yellow;
+                transform: translate(0px,100px);
+                animation-name: animation1;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate ;
+            }
+            @keyframes animation1 { 
+                0%{ border-radius: 100px;}
+                100% {background-color: rgb(222, 106, 222); transform: translate(600px,-300px);}
+            }
+            @keyframes identifier1 {
+                0%{ border-radius: 100px;}
+                100% { background-color: rgb(222, 106, 222); transform: translate(800px,-100px);}
+            }
+            @keyframes identifier2 {
+                0%{ border-radius: 100px;}
+                100%{ background-color: rgb(222, 106, 222); transform: translate(600px,-100px);}
+            }
+            @keyframes identifier3 {
+                0%{ border-radius: 100px;}
+                100% { background-color: rgb(222, 106, 222); transform: translate(800px,100px);}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+
+        </div>
+        <div class="box3">
+
+        </div>
+        <div class="box4">
+
+        </div>
+    </body>
+</html>
